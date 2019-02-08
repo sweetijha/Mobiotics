@@ -77,16 +77,25 @@
 }
 .categoery{
   font-size: 22px;
+  margin-bottom: 10px;
+  border-top: 1px solid lightgray;
+  padding-top: 20px;
+  
+}
+.categoery:first-child{
+  border: none;
+  padding: 0;
 }
 .image{
-  width:'95%';
-  text-align:'center';
+  width:95%;
+  margin: auto;
+  margin-bottom:30px;
 }
 .image-text{
     width: 95%;
     text-align: left;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 16px;
     text-overflow: ellipsis;
     display: -webkit-box;
     line-height: 22px;
@@ -94,22 +103,76 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    margin-top: 10px;
+    margin-top: 4px;
 }
 .checkIcon{
   margin-left: 5px;
 }
 .album{
-  font-size: 20px;
+  font-size: 14px;
   color: gray;
   font-weight: 600;
   margin-top: 10px;
 }
 .viewer{
-  font-size: 20px;
+  font-size: 14px;
   color: gray;
   font-weight: 600;
 }
 .dot{
   font-size: 8px;
+}
+.c_name{
+  display: inline-block;
+  position: relative;
+  top: -8px;
+  font-weight: 700;
+  font-size: 20px;
+}
+footer{
+  background-color: white;
+}
+.footerBar{
+  position: relative;
+    top: 7px;
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+.footerBar i, .footerBar span{
+  color: #c8c7cd;
+}
+.rel_5{
+  position: relative;
+  top: -5px;
+}
+.rightMenu{
+  float: right;
+  margin-top: 3px;
+  
+}
+.rightMenu a{
+  font-size: 12px;
+  color: gray;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.rightMenu a i{
+  color: white;
+  background-color: lightgray;
+  padding: 8px 10px;
+  border-radius: 100%;
+}
+.mainDiv{
+      background-color: #f8f8f8;
+}
+.videoTime{
+  position: absolute;
+  color: white;
+  padding: 2px 5px;
+  background-color: black;
+  opacity: 0.8;
+  bottom: 10px;
+  right: 10px;
+  font-size: 10px;
 }

@@ -1,4 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mobiotics-Task
+1. Clone the git repository by using the command 
+  ```bash
+    git clone https://github.com/sweetijha/mobiotics-task
+ ```
+2. Then goto the project folder and hit the command 
+  ```bash
+    npm install 
+  ```
+3. Then you can use the app and start by using 
+  ```bash
+    npm start
+  ```
+  
+    
 
 ## Available Scripts
 
